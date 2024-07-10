@@ -1,5 +1,5 @@
 import HeaderItemProps from "../interfaces/HeaderItemProps.interface"
-//hidden md:block
+
 const HeaderItem: React.FC<HeaderItemProps> = ({name, Icon}) => {
   return (
     <li className="px-1 lg:px-4 py-2 hover:underline underline-offset-8 transition-all cursor-pointer">
